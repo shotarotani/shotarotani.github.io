@@ -1,0 +1,18 @@
+body {
+	background-color: green;
+	text-align: center;
+
+}
+
+h1 {
+	color: yellow;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
