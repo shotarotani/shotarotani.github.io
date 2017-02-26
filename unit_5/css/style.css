@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+
+.image  img { 
+   position: relative; 
+   width: 100%;
+}
+
+
+body {
+    background-color: #e2e1d5;
+	text-align: center;
+
+}
+h1 {
+	position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h1 span {
+   color: white; 
+   font: bold 50px/75px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+h2 {
+	color: black;
+	font-family: "Helvetica";
+	font-size: 2em;
+}
+
+#slogan {
+	font-style: italic;
+	color: black;
+	font-family: "Helvetica";
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+p {
+	font-size: 17px;
+	font-family: 'Crimson Text', serif;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div/section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
