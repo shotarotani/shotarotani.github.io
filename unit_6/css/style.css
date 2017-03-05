@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+
+.image  img { 
+   position: relative; 
+   width: 100%;
+}
+
+
+body {
+    background-color: #e2e1d5;
+	  text-align: center;
+
+}
+h1 {
+	position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h1 span {
+   color: white; 
+   font: bold 50px/75px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+h2 {
+	color: black;
+	font-family: "Helvetica";
+	font-size: 2em;
+}
+
+#slogan {
+	font-style: italic;
+	color: black;
+	font-family: "Helvetica";
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+p {
+	font-size: 17px;
+	font-family: 'Crimson Text', serif;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+#art1 {
+    border: 1px black solid;
+    padding: 20px;
+    margin: 5px;
+    height: 300px;
+}
+
+#art2 {
+    border: 1px black solid;
+    padding: 20px;
+    float:left;
+    width:45%;
+    margin: 5px;
+}
+
+#art3 {
+    border: 1px black solid;
+    padding: 20px;
+    float:right;
+    width:45%;
+    margin: 5px
+}
+
+#art4 {
+   border: 1px black solid;
+    padding: 20px;
+    float:left;
+    width:45%;
+    margin: 5px;
+}
+
+#art5 {
+    border: 1px black solid;
+    padding: 20px;
+    float:right;
+    width:45%;
+    margin: 5px;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
