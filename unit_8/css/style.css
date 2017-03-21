@@ -6,7 +6,6 @@ html{
 .image  img {  
    position: relative;
    width: 100%;
-   margin: auto;
    margin: 0.2em;
    box-sizing: border-box;
 }
@@ -80,7 +79,6 @@ p {
     width: 100%;
     padding: 1em;
     margin: 0.2em;
-    float: center;
     box-sizing: border-box;
 
 }
@@ -91,6 +89,8 @@ p {
     float:left;
     width:45%;
     margin: 0.2em;
+    
+
 }
 
 #art3 {
@@ -99,6 +99,8 @@ p {
     float:right;
     width:45%;
     margin: 0.2em;
+    
+
 }
 
 #art4 {
@@ -107,6 +109,8 @@ p {
     float:left;
     width:45%;
    margin: 0.2em;
+   
+
 }
 
 #art5 {
@@ -115,6 +119,8 @@ p {
     float:right;
     width:45%;
     margin: 0.2em;
+    
+
 }
 
 #slogan {
@@ -134,7 +140,7 @@ p {
     height: 0;
 }
 
-@media (max-width: 1313px) {
+@media (max-width: 1000px) {
 
 
 #art2 {
@@ -144,7 +150,7 @@ p {
     /*margin: 0.2em;*/
     width: 100%;
     box-sizing: border-box;
-}
+   }
 
 #art3 {
     /*border: 1px black solid;*/
@@ -153,6 +159,7 @@ p {
     /*margin: 0.2em;*/
     width:100%;
     box-sizing: border-box;
+   
 }
 
 #art4 {
@@ -162,6 +169,7 @@ p {
     /*margin: 0.2em;*/
     width:100%;
     box-sizing: border-box;
+    
 }
 
 #art5 {
@@ -171,6 +179,7 @@ p {
     /*margin: 0.2em;*/
     width:100%;
     box-sizing: border-box;
+    
 }
 
 }
