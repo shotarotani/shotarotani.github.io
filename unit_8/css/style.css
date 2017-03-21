@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+html{
+  font-size: 20px;
+ }
+
+.image  img {  
+   position: relative;
+   width: 100%;
+   margin: auto;
+}
+
+
+body {
+    background-color: #e2e1d5;
+	  text-align: center;
+}
+h1 {
+	position: absolute;
+  top: 20%;
+  width: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  font-size: 1.7em;
+}
+
+h1 span {
+   color: white; 
+   font: bold 150%/175% Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   /*background: rgb(0, 0, 0);*/
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+h2 {
+	color: black;
+	font-family: "Helvetica";
+	font-size: 1.6em;
+}
+
+
+ul {
+	list-style-type: none;
+    margin: 0.2em 0.2em 0.5em 0.2em;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+  font-size: 1em;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+p {
+	font-size: .85em;
+	font-family: 'Crimson Text', serif;
+}
+
+#two_column {
+  width: 100%;
+}
+
+#art1 {
+    border: 1px black solid;
+    width: 100%;
+    padding: 1em;
+    margin: 0.2em;
+    float: center;
+
+}
+
+#art2 {
+    border: 1px black solid;
+    padding: 1em;
+    float:left;
+    width:45%;
+    margin: 0.2em;
+}
+
+#art3 {
+    border: 1px black solid;
+    padding: 1em;
+    float:right;
+    width:45%;
+    margin: 0.2em;
+}
+
+#art4 {
+   border: 1px black solid;
+    padding: 1em;
+    float:left;
+    width:45%;
+   margin: 0.2em;
+}
+
+#art5 {
+    border: 1px black solid;
+    padding: 1em;
+    float:right;
+    width:45%;
+    margin: 0.2em;
+}
+
+#slogan {
+  font-style: italic;
+  color: black;
+  font-family: "Helvetica";
+  font-size: .65em;
+  text-decoration: underline;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media (max-width: 1313px) {
+
+#art2 {
+    border: 1px black solid;
+    padding: 1em;
+    float:none;
+    margin: 0.2em;
+    width: 100%;
+}
+
+#art3 {
+    border: 1px black solid;
+    padding: 1em;
+    float:none;
+    margin: 0.2em;
+    width:100%;
+}
+
+#art4 {
+    border: 1px black solid;
+    padding: 1em;
+    float:none;
+    margin: 0.2em;
+    width:100%;
+}
+
+#art5 {
+    border: 1px black solid;
+    padding: 1em;
+    float:none;
+    margin: 0.2em;
+    width:100%;
+}
+
+
+}
